@@ -8,3 +8,4 @@ def test_valid_item():
 
 def test_empty_item_rejected():
     assert not is_valid_item("")
+
