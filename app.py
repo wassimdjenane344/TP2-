@@ -16,6 +16,8 @@ def add_item():
         items.append(item)
     return redirect(url_for('index'))
 
+x=1+1
+
 @app.route('/delete/<int:index>')
 def delete_item(index):
     if index < len(items):
