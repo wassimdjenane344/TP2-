@@ -3,8 +3,8 @@ def is_valid_item(item):
 
 
 def test_valid_item():
-    assert is_valid_item("pomme") == True
+    assert is_valid_item("pomme")
 
 
 def test_empty_item_rejected():
-    assert is_valid_item("") == False
+    assert not is_valid_item("")
